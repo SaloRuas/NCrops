@@ -3,7 +3,7 @@ use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 /* @var $this yii\web\View */
 
-$this->title = 'Single Page';
+$this->title = 'NCrops';
 ?>
 <div class="site-index">
 
