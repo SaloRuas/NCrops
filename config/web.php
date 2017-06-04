@@ -47,6 +47,7 @@ $config = [
         ],
         */
     ],
+    'defaultRoute' => 'crops/index',
     'params' => $params,
 ];
 
