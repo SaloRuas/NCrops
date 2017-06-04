@@ -2,7 +2,6 @@
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 /* @var $this yii\web\View */
-
 $this->title = 'NCrops';
 ?>
 <div class="site-index">
@@ -12,6 +11,8 @@ $this->title = 'NCrops';
         <div class="row">
            
             <h1>Crops Index</h1> 
+              <h1><?=$title ?></h1> 
+              <h3><?=$comment ?></h3>  
         </div>
       
         </div>

@@ -48,6 +48,7 @@ $config = [
         */
     ],
     'defaultRoute' => 'crops/index',
+    'layout' => 'binary',
     'params' => $params,
 ];
 

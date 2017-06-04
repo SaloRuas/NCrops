@@ -40,8 +40,10 @@ class CropsController extends Controller
      */
     public function actionIndex()
     {
-       
-        return $this->render('index', []);
+       $text = " varaible text";
+       $text1 = "comment text";
+      
+        return $this->render('index', ["title" => $text, "comment" =>1]);
     }
 
     /**

@@ -20,6 +20,8 @@ AppAsset::register($this);
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
+      <link href="assets/css/font-awesome.css" rel="stylesheet" />
+      <link href="assets/css/custom.css" rel="stylesheet" />
 </head>
 <body>
 <?php $this->beginBody() ?>
