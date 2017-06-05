@@ -13,6 +13,15 @@ $this->title = 'NCrops';
             <h1>Crops Index</h1> 
               <h1><?=$title ?></h1> 
               <h3><?=$comment ?></h3>  
+              <?php
+              $arrayB = null; 
+              foreach ($arrayA as  $key => $value) {
+                  echo $key."------".$value."<br>";
+              }
+              
+              ?>
+              
+              
         </div>
       
         </div>

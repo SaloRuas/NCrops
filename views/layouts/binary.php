@@ -47,16 +47,15 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
                 <nav class="navbar-default navbar-side" role="navigation">
             <div class="sidebar-collapse">
                 <ul class="nav" id="main-menu">
-				<li class="text-center">
-                    <img src="assets/img/find_user.png" class="user-image img-responsive"/>
-					</li>
-				
-					
+		    <li class="text-center">
+                        <img src="images/user.png" class="img-responsive img-circle" alt="Bird"/>
+		    </li>
+			
                     <li>
                         <a class="active-menu"  href="index.html"><i class="fa fa-dashboard"></i> Dashboard</a>
                     </li>
                      <li>
-                        <a  href="#"><i class="fa fa-desktop"></i> UI Elements</a>
+                        <a  href="#"><i class="fa fa-desktop"></i>Plants</a>
                     </li>
                     <li>
                         <a  href="#"><i class="fa fa-qrcode"></i> Tabs & Panels</a>
