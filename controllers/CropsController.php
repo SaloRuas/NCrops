@@ -42,8 +42,15 @@ class CropsController extends Controller
     {
        $text = " varaible text";
        $text1 = "comment text";
-      
-        return $this->render('index', ["title" => $text, "comment" =>1]);
+       
+       $arrayA = [
+           "title1" => $text, 
+           "comment" =>1,
+           1 => "batatas",
+           2 => "bananas"
+           ];
+     
+        return $this->render('index', ["title" => $text, "comment" =>1, "arrayA"=>$arrayA]);
     }
 
     /**
